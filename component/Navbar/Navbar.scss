@@ -1,0 +1,172 @@
+//Variables
+$title-color :#111111;
+$paragraf-color :#6D6D6D;
+$white-color :#fff;
+$primary-color :#9D1F23;
+$margin-bottom-section : 144px;
+
+//Navbar Scroll 
+nav.onScrolled {
+    background: $white-color !important;
+    transition: .2s;
+    .navbar-collapse {
+        .navbar-login-regist {
+            .signUp {
+                background: $primary-color !important;
+                color: $white-color !important;
+            }
+        }
+    }
+}
+//Navbar Section
+.navbar {
+    padding: 1rem 0;
+}
+nav {
+    .container {
+        .navbar-brand {
+        }
+        .navbar-toggler {
+            border: 1px solid $white-color;
+            &:focus {
+            box-shadow: 0px 0px 0.25rem $white-color;
+            }
+        }
+        .navbar-collapse {
+            justify-content: space-between;
+            .navbar-nav {
+                .dropdown {
+                    .dropdown-menu {
+                        padding: 0;
+                        left: -620px;
+                        margin-top: 1rem;
+                        min-width: 1000px;
+                        .nav-tabs {
+                            flex-wrap: nowrap;
+                            padding: 12px;
+                            .nav-item {
+                                width: 100%;
+                                .nav-link {
+                                    margin: 0;
+                                    padding: 12px 26px;
+                                    border: none;
+                                    border-radius: 0;
+
+                                    &:hover {
+                                        background-color: #F7F7F7;
+                                    }
+                                }
+                                .nav-link.active {
+                                    border: none;
+                                    color: $primary-color;
+                                    font-weight: 700;
+                                    letter-spacing: .5px;
+                                }
+                                .menu-program {
+                                    list-style: none;
+                                    padding: 0;
+                                    li {
+                                        padding: 12px 24px;
+                                        &:hover {
+                                            background-color: #F7F7F7;
+                                        }
+                                        .menu-list {
+                                            text-decoration: none;
+                                            font-weight: 700;
+                                            color: $paragraf-color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .nav-link {
+                    color: $title-color;
+                    font-weight: 400;
+                    font-size: 16px;
+                    padding: 0;
+                }
+            }
+            .navbar-login-regist {
+                .nav-link {
+                    color: $white-color;
+                    font-weight: 400;
+                    font-size: 16px;
+                    padding: .5rem 0;
+                    letter-spacing: 0.5px;
+                }
+                .login {
+                    color: $title-color;
+                    margin-right: 1rem;
+                }
+                .signUp {
+                    background: $primary-color;
+                    color: $white-color;
+                    padding: .3rem 1rem;
+                    border-radius: 8px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+//End Navbar
+
+@media screen and (min-width :992px) {
+    nav {
+        .container {
+            .navbar-brand {
+                margin-right: 215px;
+            }
+
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-link {
+                        padding: .5rem 0;
+                        margin-right: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width :1200px) {
+    nav {
+        .container {
+            .navbar-brand {
+                margin-right: 290px;
+            }
+
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-link {
+                        padding: .5rem 0;
+                        margin-right: 44px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width :1400px) {
+    nav {
+        .container {
+            .navbar-brand {
+                margin-right: 420px;
+            }
+
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-link {
+                        padding: .5rem 0;
+                        margin-right: 44px;
+                    }
+                }
+            }
+        }
+    }
+}

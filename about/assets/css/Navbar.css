@@ -1,0 +1,85 @@
+nav.onScrolled {
+  background: #fff !important;
+  transition: .2s;
+}
+
+nav.onScrolled .navbar-collapse .navbar-login-regist .signUp {
+  background: #9D1F23 !important;
+  color: #fff !important;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+nav .container .navbar-toggler {
+  border: 1px solid #fff;
+}
+
+nav .container .navbar-toggler:focus {
+  box-shadow: 0px 0px 0.25rem #fff;
+}
+
+nav .container .navbar-collapse {
+  justify-content: space-between;
+}
+
+nav .container .navbar-collapse .navbar-nav .nav-link {
+  color: #111111;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0;
+}
+
+nav .container .navbar-collapse .navbar-login-regist .nav-link {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  padding: .5rem 0;
+  letter-spacing: 0.5px;
+}
+
+nav .container .navbar-collapse .navbar-login-regist .login {
+  color: #111111;
+  margin-right: 1rem;
+}
+
+nav .container .navbar-collapse .navbar-login-regist .signUp {
+  background: #9D1F23;
+  color: #fff;
+  padding: .3rem 1rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  nav .container .navbar-brand {
+    margin-right: 215px;
+  }
+  nav .container .navbar-collapse .navbar-nav .nav-link {
+    padding: .5rem 0;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  nav .container .navbar-brand {
+    margin-right: 290px;
+  }
+  nav .container .navbar-collapse .navbar-nav .nav-link {
+    padding: .5rem 0;
+    margin-right: 44px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  nav .container .navbar-brand {
+    margin-right: 420px;
+  }
+  nav .container .navbar-collapse .navbar-nav .nav-link {
+    padding: .5rem 0;
+    margin-right: 44px;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

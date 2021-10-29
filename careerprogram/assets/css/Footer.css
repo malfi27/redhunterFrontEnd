@@ -1,0 +1,152 @@
+footer {
+  background-image: url(/landingpage/assets/img/backgroundFooter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 100;
+}
+
+footer .container .wrapperFooter {
+  padding: 144px 0;
+  display: flex;
+  border-bottom: 1px solid #fff;
+}
+
+footer .container .wrapperFooter .leftFooter {
+  flex: 1;
+}
+
+footer .container .wrapperFooter .leftFooter .logoFooter {
+  margin-bottom: 42px;
+}
+
+footer .container .wrapperFooter .leftFooter .oprasionalTime {
+  color: #fff;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+
+footer .container .wrapperFooter .leftFooter .oprasionalTime h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+footer .container .wrapperFooter .leftFooter .oprasionalTime p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+footer .container .wrapperFooter .leftFooter .oprasionalTime .telp {
+  margin-bottom: 24px;
+}
+
+footer .container .wrapperFooter .rightFooter {
+  flex: 2;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .programPelatihan {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.5px;
+  line-height: 46px;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .programPelatihan h3 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 42px;
+  color: #fff;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .programPelatihan a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .tentangKita {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.5px;
+  line-height: 46px;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .tentangKita h3 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 42px;
+  color: #fff;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .tentangKita a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .faq {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.5px;
+  line-height: 46px;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .faq h3 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 42px;
+  color: #fff;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .faq a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .socialMedia {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.5px;
+  line-height: 46px;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .socialMedia h3 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 42px;
+  color: #fff;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .socialMedia a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+footer .container .wrapperFooter .rightFooter .wrapperContentFooter .socialMedia a i {
+  margin-right: 12px;
+}
+
+footer .container .copyRightRedhunter {
+  display: flex;
+  justify-content: center;
+  padding: 58px 0px 64px 0px;
+}
+
+footer .container .copyRightRedhunter h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+/*# sourceMappingURL=Footer.css.map */

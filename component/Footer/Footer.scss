@@ -1,0 +1,137 @@
+//Variables
+$title-color :#111111;
+$paragraf-color :#6D6D6D;
+$white-color :#fff;
+$primary-color :#9D1F23;
+$margin-bottom-section : 144px;
+
+footer {
+    background-image: url(/landingpage/assets/img/backgroundFooter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 100;
+    .container {
+        .wrapperFooter {
+            padding: 144px 0;
+            display: flex;
+            border-bottom: 1px solid $white-color;
+            .leftFooter {
+                flex: 1;
+                .logoFooter {
+                    margin-bottom: 42px;
+                }
+                .oprasionalTime {
+                    color: $white-color;
+                    line-height: 26px;
+                    letter-spacing: 0.5px;
+                    h3 {
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin: 0;
+                    }
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin: 0;
+                    }
+                    .telp {
+                        margin-bottom: 24px;
+                    }
+                }
+            }
+            .rightFooter {
+                flex: 2;
+                .wrapperContentFooter {
+                    display: flex;
+                    justify-content: space-between;
+                    .programPelatihan {
+                        display: flex;
+                        flex-direction: column;
+                        letter-spacing: 0.5px;
+                        line-height: 46px;
+                        h3 {
+                            font-weight: 700;
+                            font-size: 16px;
+                            margin-bottom: 42px;
+                            color: $white-color;
+                        }
+                        a {
+                            text-decoration: none;
+                            font-size: 16px;
+                            color: $white-color;
+                        }
+                    }
+                    .tentangKita {
+                        display: flex;
+                        flex-direction: column;
+                        letter-spacing: 0.5px;
+                        line-height: 46px;
+                        h3 {
+                            font-weight: 700;
+                            font-size: 16px;
+                            margin-bottom: 42px;
+                            color: $white-color;
+                        }
+                        a {
+                            text-decoration: none;
+                            font-size: 16px;
+                            color: $white-color;
+                        }
+                    }
+                    .faq {
+                        display: flex;
+                        flex-direction: column;
+                        letter-spacing: 0.5px;
+                        line-height: 46px;
+                            h3 {
+                                font-weight: 700;
+                                font-size: 16px;
+                                margin-bottom: 42px;
+                                color: $white-color;
+                            }
+                            a {
+                                text-decoration: none;
+                                font-size: 16px;
+                                color: $white-color;
+                            }
+                    }
+                    .socialMedia {
+                        display: flex;
+                        flex-direction: column;
+                        letter-spacing: 0.5px;
+                        line-height: 46px;
+                            h3 {
+                                font-weight: 700;
+                                font-size: 16px;
+                                margin-bottom: 42px;
+                                color: $white-color;
+                            }
+                            a {
+                                text-decoration: none;
+                                font-size: 16px;
+                                color: $white-color;
+                                i {
+                                    margin-right: 12px;
+                                }
+                            }
+                    }
+               }
+            }
+        }
+
+        .copyRightRedhunter {
+            display: flex;
+            justify-content: center;
+            padding: 58px 0px 64px 0px;
+            h3 {
+                color: $white-color;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+}
